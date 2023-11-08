@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "huggingface-cloth-segmentation"
+version = "0.1.0"
+description = ""
+authors = ["Ryuji Watanabe <ryujisan@pepabo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+torch = "^2.1.0"
+torchvision = "^0.16.0"
+gradio = "^4.1.2"
+gdown = "^4.7.1"
+pillow = "^10.1.0"
+opencv-python = "^4.8.1.78"
+numpy = "^1.26.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
